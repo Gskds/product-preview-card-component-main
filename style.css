@@ -1,3 +1,36 @@
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+p,
+picture {
+    margin: 0; 
+}
+
+/* set up the body */
 body {
-    font-size: 15pt;
+    line-height: 1.5;
+    min-height: 100vh;
+    
+    display: grid;
+    place-items: center;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+    max-width: 100%;
+    display: block;
 }
