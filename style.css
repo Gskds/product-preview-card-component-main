@@ -1,3 +1,18 @@
+/* Custom Properties */
+:root {
+  --clr-primary: hsl(212, 21%, 14%);
+  --clr-text: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-accent: hsl(30, 38%, 92%);
+  --clr-accent-darck: hsl(158, 36%, 37%);
+  
+  --fw-semibold: 500;
+  --fw-bold: 700;
+  
+  --fs-400: 1.5rem;
+  --fs-500: 2rem;
+}
+
 /* ------------------- */
 /* Reset               */
 /* ------------------- */
@@ -9,7 +24,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: 1px solid limegreen;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 /* Reset margins */
@@ -35,6 +53,8 @@ picutre {
   max-width: 100%;
   display: block;
 }
+
+/* Typography */
 
 /* ------------------- */
 /* Utility classes     */
