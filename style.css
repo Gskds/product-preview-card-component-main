@@ -8,7 +8,8 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 1px solid limegreen;
 }
 
 /* Reset margins */
@@ -16,23 +17,23 @@ body,
 h1,
 p,
 picture {
-    margin: 0; 
+  margin: 0;
 }
 
 /* set up the body */
 body {
-    line-height: 1.5;
-    min-height: 100vh;
-    
-    display: grid;
-    place-items: center;
+  line-height: 1.5;
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
 }
 
 /* make images easier to work with */
 img,
 picutre {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* ------------------- */
@@ -42,25 +43,32 @@ picutre {
 /* general */
 
 .flex {
-    display: flex;
-    gap: var(--gap, 1rem);
+  display: flex;
+  gap: var(--gap, 1rem);
 }
 
 .grid {
-    display: grid;
-    gap: var(--gap, 1rem);
+  display: grid;
+  gap: var(--gap, 1rem);
 }
 
-.flow > *:where(:not(:first-child)) {
-    margin-top: var(--flow-space, 1rem);
+.flow>*:where(:not(:first-child)) {
+  margin-top: var(--flow-space, 1rem);
 }
 
 .flow--space-small {
-    --flow-space: .75rem;
+  --flow-space: .75rem;
 }
 
 .container {
-    padding: 0 2em;
-    margin: 0 auto;
-    max-width: 60rem;
+  padding: 0 2em;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+/* Card */
+@media screen and (min-width: 40em) {
+  .card {
+    grid-template-columns: repeat(2, 1fr)
+  }
 }
