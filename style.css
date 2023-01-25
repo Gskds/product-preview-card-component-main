@@ -73,11 +73,11 @@ picutre {
 }
 
 .flow>*:where(:not(:first-child)) {
-  margin-top: var(--flow-space, 1rem);
+  padding-top: var(--flow, 1rem);
 }
 
-.flow--space-small {
-  --flow-space: .75rem;
+.zero-flow {
+  --flow: 0;
 }
 
 .container {
