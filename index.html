@@ -15,21 +15,27 @@
 <body>
   <main>
     <article>
-      <container>
-        <div class="card grid flow">
-          <picture>
+      <div class="container">
+        <div class="card grid">
+          <picture class="card__img">
             <source srcset="/images/image-product-desktop.jpg" media="(min-width: 60rem)">
-            <img src="/images/image-product-mobile.jpg" alt="">
+            <img src="/images/image-product-mobile.jpg" alt="Gabrielle Essense perfume bottel laying flat on a table with green leaves above and below it.">
           </picture>
-          <div class="card__body flow">
+          <div class="card__body grid">
             <span class="titel">perfume</span>
             <h1 class="heading">gabrielle essence eau de perfum</h1>
-            <p>A flora,solar and voluputuals interpretation composed by Olivier Polge, Perfume-Creator for the House of CHANEL.</p>
+            <p>A flora, solar and voluputuals interpretation composed by Olivier Polge, Perfume-Creator for the House of CHANEL.</p>
             <div class=" pricing flex">
-              <div class="discount">$149.99</div>
-              <div class="original-price">$169.99</div>
+              <div class="discount">
+                <span class="sr-only">Current price</span>
+                $149.99
+                </div>
+              <div class="original-price">
+                <span class="sr-only">Original price</span>
+                $169.99
+                </div>
             </div>
-            <button class="btn zero-flow">
+            <button class="btn">
               <div class="btn-content flex">
                 <img src="/images/icon-cart.svg" alt="">
                 <span>Add to Cart</span>
@@ -37,7 +43,7 @@
             </button>
           </div>
         </div>
-      </container>
+      </div>
     </article>
   </main>
 </body>
