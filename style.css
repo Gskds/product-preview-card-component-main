@@ -4,8 +4,8 @@
   --clr-secondary: hsl(30, 38%, 92%);
   --clr-text: hsl(228, 12%, 48%);
   --clr-white: hsl(0, 0%, 100%);
-  --clr-accent: hsl(158, 70%, 25%);
-  --clr-accent-darck: hsl(158, 36%, 37%);
+  --clr-accent: hsl(158, 70%, 37%);
+  --clr-accent-darck: hsl(158, 36%, 20%);
 
   --fw-semibold: 500;
   --fw-bold: 700;
@@ -112,6 +112,10 @@ h1 {
   border: none;
   border-radius: 0.8rem;
   padding: 0.75em 1.5em;
+}
+
+.btn:is(:hover,:focus) {
+  background-color: var(--clr-accent-darck);
 }
 
 /* Card */
