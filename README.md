@@ -9,7 +9,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -42,12 +41,12 @@ Users should be able to:
 
 ### Continued development
 
-I what to expand my knowledge on makeing awesome layout since these is what I am still strangling on to know it.
+I what to expand my knowledge on makeing awesome layout since these is what I am still strangling on.
 
 ### Useful resources
 
 - https://youtu.be/B2WL6KkqhLQ
- - These video help me to make the image resposive on different screen though the use of picture html element and to fix my layout issue.
+ - These video help me to make the image resposive on different screen though the use of picture html element and to fix my other layout issues.
 - https://piccalil.li/blog/a-modern-css-reset - This is an amazing blog which have a css reset that makes your life easier to work with css styling. I'd recommend for anyone who wants to use it.
 
 ## Author
@@ -57,4 +56,4 @@ I what to expand my knowledge on makeing awesome layout since these is what I am
 
 ## Acknowledgments
 
-I want to thank keven Powell. His video tutorials help me a lot.
+I want to thank kevin Powell. His video tutorials help me a lot.

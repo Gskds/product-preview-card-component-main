@@ -6,6 +6,8 @@
   --clr-white: hsl(0, 0%, 100%);
   --clr-accent: hsl(158, 70%, 37%);
   --clr-accent-darck: hsl(158, 36%, 20%);
+  
+  --ff-body: 'Fraunces', serif;
 
   --fw-semibold: 500;
   --fw-bold: 700;
@@ -71,10 +73,10 @@ picutre {
 
 /* Typography */
 body {
+  font-family: var(--ff-body);
   font-size: var(--fs-400);
   background-color: var(--clr-secondary);
   line-height: 1.5;
-  font-size: var(--fs-400);
 }
 
 h1 {
