@@ -7,7 +7,8 @@
   --clr-accent: hsl(158, 70%, 37%);
   --clr-accent-darck: hsl(158, 36%, 20%);
   
-  --ff-body: 'Fraunces', serif;
+  --ff-heading: 'Fraunces', serif;
+  --ff-body: 'Montserrat', sans-serif;
 
   --fw-semibold: 500;
   --fw-bold: 700;
@@ -80,6 +81,7 @@ body {
 }
 
 h1 {
+  font-family: var(--ff-heading);
   font-size: var(--fs-600);
   line-height: 1;
   overflow-wrap: break-word;
