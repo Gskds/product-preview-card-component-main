@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Gskds/product-preview-card-component-main.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://animated-meringue-ba0625.netlify.app
 
 ## My process
 
